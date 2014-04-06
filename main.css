@@ -1,0 +1,121 @@
+/* start CSS reset
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end CSS reset                                          */
+
+
+/* start of my code                                       */
+body {
+	background-image: url(images/HotCold.jpg);
+	background-size: cover;
+}
+
+#container {
+	width: 80%;
+	padding: 0px 100px;
+	min-height: 350px;
+	padding: 15px 55px 55px 55px;
+	background-color: rgba(246,248,238,0.87);
+	margin: 100px auto auto auto;
+	border-radius: 2px;
+	font-family: 'Droid Serif', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 46px;
+    text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+h4 {
+	margin-bottom: inherit;
+	font-weight: bold;
+}
+
+.feedback {
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+	min-height: 20px;
+	max-width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#feedback1 {
+	margin-bottom: 0px;
+}
+
+#hide {
+	display: none;
+}
+
+#counter {
+	font-weight: bold;
+}
+
+#guesses {
+	font-weight: bold;
+}
+
+form {
+	text-align: center;
+	margin: 30px
+}
+
+#inputForm {
+	width: 200px;
+}
